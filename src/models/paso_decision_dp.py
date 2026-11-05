@@ -2,7 +2,6 @@ from dataclasses import dataclass
 from typing import Union
 
 @dataclass
-
 class PasoDecisionDP:
     etapa_id: Union[int, str]
     nombre_etapa: str

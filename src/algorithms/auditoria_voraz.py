@@ -1,7 +1,6 @@
 from typing import List, Set, Dict, Any, Union
 from src.models import Interaccion, ResultadoAuditoria
 
-
 def seleccionar_cobertura_voraz(
     universo_riesgos: Union[Set[str], List[str]],
     interacciones: List[Interaccion],

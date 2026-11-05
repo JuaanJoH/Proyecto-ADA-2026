@@ -2,9 +2,7 @@ from dataclasses import dataclass
 from typing import Set, Union
 
 @dataclass
-
 class Interaccion:
-
     id: Union[int, str]
     descripcion: str
     riesgos_cubiertos: Set[str]

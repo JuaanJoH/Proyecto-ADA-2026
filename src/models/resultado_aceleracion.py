@@ -2,7 +2,6 @@ from dataclasses import dataclass, asdict
 from typing import List, Dict, Any
 
 @dataclass
-
 class ResultadoAceleracion:
     ahorro_optimo: int
     duracion_original_total: int

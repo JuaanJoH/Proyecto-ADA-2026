@@ -1,9 +1,7 @@
 from dataclasses import dataclass
 from typing import Union
 
-
 @dataclass
-
 class Etapa:  
     id: Union[int, str]
     nombre: str
@@ -12,7 +10,7 @@ class Etapa:
     reduccion_tiempo: int
 
     def __post_init__(self) -> None:
-        """Valida las invariantes del dominio."""
+        # Valida las invariantes del dominio
         if self.duracion_original <= 0:
             raise ValueError(f"La duración original de la etapa {self.id} debe ser > 0.")
         if self.costo_aceleracion <= 0:

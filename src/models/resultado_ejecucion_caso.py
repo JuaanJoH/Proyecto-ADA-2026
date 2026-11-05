@@ -3,7 +3,6 @@ from typing import Dict, Any
 
 @dataclass
 class ResultadoEjecucionCaso:
-
     id_caso: str
     timestamp_utc: str
     tiempos_ejecucion_segundos: Dict[str, float]

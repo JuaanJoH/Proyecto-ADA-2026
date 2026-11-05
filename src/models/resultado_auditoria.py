@@ -1,7 +1,6 @@
 from dataclasses import dataclass, asdict
 from typing import List, Union, Dict, Any
 
-
 @dataclass
 class ResultadoAuditoria:
     metodo: str
