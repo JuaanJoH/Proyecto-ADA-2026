@@ -4,7 +4,6 @@ from typing import List, Dict, Any
 @dataclass
 
 class ResultadoAceleracion:
-    """Contiene la solución óptima y trazas de la aceleración mediante DP (Mochila 0/1)."""
     ahorro_optimo: int
     duracion_original_total: int
     duracion_final_total: int

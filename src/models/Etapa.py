@@ -4,8 +4,7 @@ from typing import Union
 
 @dataclass
 
-class Etapa:
-    
+class Etapa:  
     id: Union[int, str]
     nombre: str
     duracion_original: int

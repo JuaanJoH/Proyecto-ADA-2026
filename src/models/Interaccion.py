@@ -11,7 +11,6 @@ class Interaccion:
     costo: float = 1.0
 
     def __post_init__(self) -> None:
-        """Asegura consistencia de tipos y restricciones."""
         if isinstance(self.riesgos_cubiertos, (list, tuple)):
             self.riesgos_cubiertos = set(str(r) for r in self.riesgos_cubiertos)
         else:
