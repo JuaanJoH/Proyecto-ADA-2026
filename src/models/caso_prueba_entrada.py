@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import List, Optional
-from src.models.etapa import Etapa
-from src.models.interaccion import Interaccion
+from src.models.Etapa import Etapa
+from src.models.Interaccion import Interaccion
 
 @dataclass
 class CasoPruebaEntrada:

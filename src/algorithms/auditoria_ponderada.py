@@ -1,5 +1,5 @@
 from typing import List, Set, Dict, Any, Union, Optional
-from src.models.interaccion import Interaccion
+from src.models.Interaccion import Interaccion
 from src.models.resultado_auditoria import ResultadoAuditoria
 
 def seleccionar_cobertura_ponderada(

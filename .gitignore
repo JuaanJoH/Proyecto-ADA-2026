@@ -1,0 +1,12 @@
+# Resultados generados de los casos de prueba
+data/resultados/
+
+# Documentacion: ignorar todo el contenido de docs excepto el PDF
+docs/*
+!docs/*.pdf
+
+# Archivos temporales y cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/

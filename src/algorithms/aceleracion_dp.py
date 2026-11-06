@@ -1,5 +1,6 @@
 from typing import List, Dict, Any, Tuple
-from src.models import Etapa, ResultadoAceleracion
+from src.models.Etapa import Etapa
+from src.models.resultado_aceleracion import ResultadoAceleracion
 
 def construir_tabla_dp(etapas: List[Etapa], presupuesto: int) -> List[List[int]]:
     """
