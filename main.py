@@ -12,6 +12,14 @@ from src.algorithms.auditoria_ponderada import seleccionar_cobertura_ponderada
 from src.utils.io_handler import cargar_caso_prueba, guardar_resultado
 from src.utils.timer import medir_tiempo
 
+"""
+uso:
+
+python main.py --input data/casos/entrada_G3_mochila_20_nodos.json
+
+para ver la traza:
+python main.py --input data/casos/entrada_G3_mochila_20_nodos.json --verbose
+"""
 
 def procesar_caso(
     caso: CasoPruebaEntrada,

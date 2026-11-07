@@ -1,9 +1,10 @@
 # Resultados generados de los casos de prueba
 data/resultados/
 
-# Documentacion: ignorar todo el contenido de docs excepto el PDF
+# Documentacion: ignorar archivos temporales de compilacion de LaTeX, pero incluir el PDF y el Manual Tecnico
 docs/*
 !docs/*.pdf
+!docs/Manual_Tecnico.md
 
 # Archivos temporales y cache de Python
 __pycache__/
